@@ -1,21 +1,27 @@
+/**
+*Creates the class Person, with attributes of name and age
+*/
+
 public class Person
 {
-	//valid only inside person class
+	/**Declare attributes*/
 	private String name;
 	private int age;
-	//Constructors
+
+	/**Constructor of Person, default */
 	public Person()
 	{
 		name = "Jane Doe";
 		age = 27;
 	}
+	/**Constructor for person with initial values*/
 	public Person(String inName, int inAge)
 	{
 		name = inName;
 		age = inAge;
 	}	
 
-	//getters/assesors method
+	/**Get accessors for attributes name and age*/
 	public String getName()
 	{
 		return name;
@@ -24,7 +30,7 @@ public class Person
 	{
 		return age;
 	}
-	//setters/mutator
+	/**Mutator for changing name and age*/
 	public void setName(String name)
 	{
 		this.name = name;
@@ -33,9 +39,10 @@ public class Person
 	{
 		this.age = age;
 	}
-
+	
+	/**Method for quick calling of person information*/
 	public String toString()
 	{
-		return this.name + " " + this.age;
+		return this.name + ", " + this.age;
 	}
 }

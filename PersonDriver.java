@@ -1,5 +1,8 @@
+/**import scanner*/
 import java.util.Scanner;
 
+/**This class allows for the setting of information of a new person, and will compare those
+*objects*/
 public class PersonDriver
 {
 	public static void main(String[] args)
@@ -60,6 +63,7 @@ public class PersonDriver
 			}
 		}
 	}
+	/**This method is to quickly compare all the attributes of person1 to person2*/
         public static boolean compare(Person personA, Person personB) 
 	{
 		if ((personA.getName()).equals(personB.getName()) && ((personA.getAge()) ==
