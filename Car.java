@@ -59,7 +59,7 @@ public class Car
 	public String toString()
 	{
 		return this.make + ", " + this.color + ", " + this.engSize + " cu/l engine, "
-			+ this.hrsPwr + " horswpower";
+			+ this.hrsPwr + " horsepower";
 	}
 }
 
